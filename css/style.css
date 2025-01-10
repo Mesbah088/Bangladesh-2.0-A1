@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: #FAF9F6;
+}
+
+
+/* common css  start*/
+.container {
+    max-width: 1600px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* comon css end  */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 24px;
+}
+
+
+.logo h2 {
+    color: rgb(14, 14, 14);
+    font-family: "Fira Sans", serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.signin button {
+    padding: 15px 30px 15px 30px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    color: rgb(0, 106, 80);
+    font-family: "Fira Sans", serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.hero-section {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64;
+    padding: 80px 100px 80px 100px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+}
+
+.hero-section .left h6 {
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.hero-section .left {
+    width: 50%;
+}
+
+.hero-section .left h1 {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 24px 0;
+}
+
+.hero-section .left button {
+    padding: 17px 34px 17px 34px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: "Fira Sans", serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.card h1 {
+    color: rgb(14, 14, 14);
+    font-family: "Fira Sans", serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 80px;
+
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.box_1 {
+    margin: 32px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 24px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: "Fira Sans", serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.box_1 img {
+    width: 62px;
+    height: 62px;
+}
+
+.text h1 {
+    color: rgb(14, 14, 14);
+    font-family: "Fira Sans", serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 80px;
+}
+
+.text p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 24px;
+}
+
+.Big_box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.Main_box {
+
+    border: 16px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: "Fira Sans", serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.box_2 img {
+    width: 62px;
+    height: 62px;
+
+}
+
+.box_2 {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+}
+
+.box_2 h2 {
+    margin-top: 24px;
+}
+
+.box_2 p {
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
+.box_2 button {
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    padding: 11px 20px 11px 20px;
+}
+
+.box_3 {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    padding: 32px;
+}
+
+.box_3 h2 {
+    margin-top: 24px;
+}
+
+.box_3 p {
+    margin-top: 12px;
+    margin-bottom: 48px;
+}
+
+.box_3 button {
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    padding: 11px 20px 11px 20px;
+}
+
+.box_4 {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+    padding: 32px;
+}
+
+.box_4 h2 {
+    margin-top: 24px;
+}
+
+.box_4 p {
+    margin-top: 12px;
+    margin-bottom: 64px;
+}
+
+.box_4 button {
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    padding: 11px 20px 11px 20px;
+}
+
+.Intro {
+    margin-top: 32px;
+
+}
+
+.txt {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 48px 24px 48px 24px;
+
+}
+
+.txt h4 {
+    margin-top: 12px;
+    ;
+}
+
+#Yunus {
+    color: rgba(14, 14, 14, 0.6);
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.News {
+    margin-top: 80px;
+}
+
+.News h1 {
+    font-family: "Fira Sans", serif;
+}
+
+.News p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 24px;
+}
+
+.satelite-section {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    padding: 48px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    margin-top: 32px;
+}
+
+.satelite-section .left img {
+    border-radius: 24px;
+
+}
+
+.satelite-section .right {
+    background: rgb(255, 255, 255);
+}
+
+.satelite-section .right h1 {
+    background: rgb(255, 255, 255);
+}
+
+.satelite-section .right p {
+    background: rgb(255, 255, 255);
+}
+
+.satelite-section .right img {
+    background: rgb(255, 255, 255);
+}
+
+.satelite-section .right button {
+    border: none;
+    margin-top: 32px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    padding: 13px 26px 13px 26px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+#BLNS {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.Donate h1 {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.Donate p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.bx {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+}
+
+.bx button {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    align-items: center;
+    padding: 40px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.bx button:hover {
+    background-color: #e9ecef;
+}
+
+.bx .selected {
+    background-color: #d1e7dd;
+    border-color: #0f5132;
+    color: #0f5132;
+}
+
+.other-amount {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.donate-btn {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    padding: 17px 34px 17px 34px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    align-items: center;
+
+}
+
+.donate-btn :hover {
+    background-color: #157347;
+}
+
+.final {
+    align-items: center;
+    background: rgb(255, 255, 255);
+    padding: 50px 160px 50px 160px;
+    text-align: center;
+}
+
+.final h1 {
+    background: rgb(255, 255, 255);
+}
+
+.image {
+    margin-top: 64px;
+    background: rgb(255, 255, 255);
+}
